@@ -25,5 +25,5 @@ def get_url_and_send_output(url):
         if result.content:
             output_and_email(result.content)
     else:
-        message = 'Could not get {} =( Error '.format(url, result.status_code)
-        output_and_email(message)
+        output_and_email('Could not get {} =( Error {}'
+                         .format(url, result.status_code))
