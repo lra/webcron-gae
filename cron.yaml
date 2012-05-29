@@ -1,4 +1,4 @@
-cron:
-- description: Update the Radio FG playlist
-  url: /playlist
-  schedule: every 1 minutes
+#cron:
+#- description: Update the Radio FG playlist
+#  url: /playlist
+#  schedule: every 1 minutes
